@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+.principal{
+    margin-top: 5vh;
+    margin-left: 37vw;
+    margin-right: 37vw;    
+    border: 1px solid rgb(223, 221, 221);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    height: 60vh;
+}
+
+.h1{
+    font-size: 2.5vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    align-self: center;
+    font-family: Righteous, Roboto, sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.campologin{
+    text-align: center;
+}
+.campologin button{
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: 700;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    padding: 0.7vh;
+    width: 20vw;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    background-color: #0095f6; 
+}
+.campologin button:hover{
+    background-color: whitesmoke;
+    color: #0095f6; 
+    transition-duration: 0.5s;
+}
+
+.textfield{
+    padding-bottom: 1vh;
+    text-decoration: none;
+}
+.textfield input{
+    text-align: center;
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid rgb(223, 221, 221);
+}
+.textfield input::placeholder{
+    padding-left: 1vw;
+    font-size: 10px;
+}
+
+.linha{
+    color: gray;
+    width: 20vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: block;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.linha legend{
+    padding: 5px 15px;
+}
+
+.links{
+    margin-top: 1vh;
+    font-weight: 400;
+    font-size: 15px;
+}
+.links i{
+    padding-right: 1vh;
+}
+.links li{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8vh;
+}
+#senha{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.cta{
+    margin-top: 2vh;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-left: 37vw;
+    margin-right: 37vw;    
+    border: 1px solid rgb(223, 221, 221);
+    background-color: white;
+    display: flex;
+    width: 26vw;
+    height: 10vh;
+}
+.cta h2{
+    font-weight: 500;
+    font-size: 15px;
+    
+    margin-top: 3vh;
+}
+.cta a{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 3vh;
+}
+
+.last{
+    margin-top: 2vh;
+    text-align: center;
+    margin-left: 37vw;
+    margin-right: 37vw; 
+}
+.last ul{
+    justify-content: center;
+    display: flex;
+}
+.last li{
+    padding-top: 1vh;
+    padding-right: 2vw;
+}
+.ios{
+    padding-left: 2vw;
+}
+
+@media screen and (max-width:1300px) {
+
+    .principal{
+        margin-left: 25vw;
+        margin-right: 25vw;    
+        width: 50vw;
+        height: 60vh;
+    }
+    .linha{
+        width: 40vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .campologin button{
+        width: 40vw;
+    }
+    
+    .textfield input{
+        width: 40vw;
+    }
+
+    .cta{
+        margin-top: 2vh;
+        margin-left: 25vw;
+        margin-right: 25vw;    
+        width: 50vw;
+        height: 10vh;
+    }
+    .cta h2{
+        font-weight: 500;
+        font-size: 15px;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        margin-right: 0.3vw;
+    }
+    .cta a{
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 3vh;
+    }
+
+}
+
+@media screen and (max-width:1115px) {
+
+    .principal{
+        margin-left: 25vw;
+        margin-right: 25vw;    
+        width: 50vw;
+        height: 60vh;
+    }
+    .linha{
+        width: 40vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .campologin button{
+        width: 40vw;
+    }
+    
+    .textfield input{
+        width: 40vw;
+    }
+
+    .cta{
+        margin-top: 2vh;
+        margin-left: 25vw;
+        margin-right: 25vw;    
+        width: 50vw;
+        height: 10vh;
+    }
+    .cta h2{
+        font-weight: 500;
+        font-size: 15px;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        margin-right: 0.3vw;
+    }
+    .cta a{
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 3vh;
+    }
+
+}
+@media screen and (max-width:850){
+    .principal{
+        margin-left: 10vw;
+        margin-right: 10vw;    
+        width: 80vw;
+        height: 60vh;
+    }
+    .linha{
+        width: 70vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .campologin button{
+        width: 70vw;
+    }
+    
+    .textfield input{
+        width: 70vw;
+    }
+
+    .cta{
+        margin-top: 2vh;
+        margin-left: 10vw;
+        margin-right: 10vw;    
+        width: 70vw;
+        height: 10vh;
+    }
+
+
+}
+
+@media screen and (max-width:650px){
+    .last{
+        margin-top: 2vh;
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw; 
+    }
+    .h1{
+        font-size: 5vw;
+    }
+    .cta h2{
+        font-size: 2.8vw;
+    }
+    .cta a{
+        font-size: 2.8vw;
+    }
+    .principal{
+        margin-left: 10vw;
+        margin-right: 10vw;    
+        width: 80vw;
+        height: 60vh;
+    }
+    .linha{
+        width: 70vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .campologin button{
+        width: 70vw;
+    }
+    
+    .textfield input{
+        width: 70vw;
+    }
+    .cta{
+        margin-top: 2vh;
+        margin-left: 10vw;
+        margin-right: 10vw;    
+        width: 80vw;
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .h1{
+        font-size: 10vw;
+    }
+    .cta h2{
+        font-size: 4vw;
+    }
+    .cta a{
+        font-size: 4vw;
+    }
+}
